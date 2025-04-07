@@ -1,5 +1,4 @@
 import pandas as pd
-import numpy as np
 import time
 from sklearn.model_selection import KFold
 from sklearn.preprocessing import LabelEncoder, StandardScaler
@@ -7,10 +6,8 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.svm import SVC
 from sklearn.metrics import confusion_matrix
 import tensorflow as tf
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Conv1D, Flatten, Dense, Dropout
 from tensorflow.keras.optimizers import Adam
-from tqdm.notebook import tqdm  # Use tqdm for progress visualization
+from tqdm.notebook import tqdm  
 
 # 1. Load and Preprocess Data
 df = pd.read_csv("diabetes_prediction_dataset.csv")  

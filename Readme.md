@@ -1,7 +1,6 @@
 # Diabetes Prediction Classification Project
 
-This project compares three classification algorithms — **Random Forest**, **SVM**, and a **Conv1D Deep Learning** model — for predicting diabetes using a CSV dataset. The dataset includes features such as:
-
+This project compares three classification algorithms: **Random Forest**, **SVM**, and a **Conv1D Deep Learning** model used for predicting diabetes using a CSV dataset. The dataset includes features:
 - Gender
 - Age
 - Hypertension
@@ -10,7 +9,6 @@ This project compares three classification algorithms — **Random Forest**, **S
 - BMI
 - HbA1c Level
 - Blood Glucose Level
-
 Each model is evaluated using **10-fold cross-validation**, and performance metrics including **Accuracy**, **TPR**, **FPR**, **FNR**, **TSS**, and **HSS** are manually calculated. The project also tracks and compares the training time of each model.
 
 ---
@@ -21,7 +19,6 @@ Each model is evaluated using **10-fold cross-validation**, and performance metr
 - `final_project.py` — Python script for full training and evaluation
 - `final_project.ipynb` — Jupyter Notebook version 
 - `requirements.txt` — Required Python packages
-- `README.md` — This file
 
 ---
 
